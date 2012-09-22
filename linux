@@ -1,0 +1,2 @@
+man <command> # man 是 manuals是缩写，可查看<command>命令手册, 比如 man ls
+ls -l # 显示目前目录下的文件内容
