@@ -1,0 +1,5 @@
+rake -T # 查看所以有rake 任务
+rake db:migrate         # Migrate the database (options: VERSION=x, VERBOSE=false).
+
+
+irb(main):008:0> reload!

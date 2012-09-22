@@ -22,4 +22,3 @@ Rake会在当前路径下寻找名叫Rakefile、rakefile、RakeFile.rb和rakefil
 用法 rvm [Flags] [Options] Action [Implementation[,Implementation[,...]]
 rvm list #列出所有已安装的ruby
 ################## rvm ##################################
-
