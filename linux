@@ -2,3 +2,14 @@ man <command> # man 是 manuals是缩写，可查看<command>命令手册, 比�
 ls -l # 显示目前目录下的文件内容
 cat <filename> #cat - concatenate files and print on the standard output, 即查看文件内容
 
+
+错误 cannot load such file -- zlib 的解决办法
+sudo apt-get install zlib1g-dev
+rvm reinstall 1.9.3
+
+
+错误 Could not load OpenSSL. 的解决办法
+rvm pkg install openssl
+rvm reinstall $(rvm list strings | tr "\n" ',')
+rvm all-gemsets do rvm gemset pristine
+
