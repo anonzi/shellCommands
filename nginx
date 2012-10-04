@@ -1,0 +1,13 @@
+long@hp:tar$ wget http://nginx.org/download/nginx-1.2.4.tar.gz
+
+long@hp:tar$ gem install passenger
+
+long@hp:untar$ passenger-config --root
+/home/long/.rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.17
+
+long@hp:nginx-1.2.4$ ./configure
+--add-module=/home/long/.rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.17/ext/nginx/
+--without-http_rewrite_module
+
+long@hp:nginx-1.2.4$ sudo /usr/local/nginx/sbin/nginx
+

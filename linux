@@ -19,3 +19,9 @@ axel  -n 10  -vo .  http://nodejs.org/dist/v0.8.9/node-v0.8.9.tar.gz
 
 long@hp:blog$ dpkg -L libreadline-dev
 long@hp:blog$ apt-cache search  libreadline-dev
+
+long@hp:shellCommands$ scp rails long@0371zhong.com:/home/long
+long@0371zhong.com's password: 
+rails
+100%  195     0.2KB/s   00:00    
+
