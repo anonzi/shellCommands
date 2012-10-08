@@ -1,1 +1,1 @@
-vim plugin: NERDTree                Press ? for help   
+im plugin: NERDTree                Press ? for help   
